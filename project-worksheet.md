@@ -23,12 +23,12 @@ The objecive of simon says is to follow the sequence the ins same exact order as
 ## Wireframes
 
 <!-- Include images of your wireframes.  -->
-![WireFrame](project-1/rover-project1-boilerplate/wireframes/IMG_1891.JPG)
+![WireFrame](./wireframes/IMG_1891.JPG)
 
 ## Priority Matrix
 
 <!-- Include a full list of features that have been prioritized based on the `Time and Importance` Matix.   -->
-![Priority Matrix](project-1/rover-project1-boilerplate/wireframes/IMG_19002.JPG)
+![Priority Matrix](./wireframes/IMG_19002.JPG)
 <!-- ## Game Components -->
 
 ### Landing Page
