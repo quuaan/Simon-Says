@@ -81,7 +81,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | winning logic | H | 7 hrs| 0 hrs|  |
 |landing page| l | 3 hrs | 0hrs| |
 |css| l | 7 hrs | 0hrs | |
-restart function | l | 3hrs |  |  |
+restart function | l | 3hrs | 0hrs |  |
 | Total | | 32hrs | 0hrs |
 
 ## Helper Functions
