@@ -23,11 +23,12 @@ The objecive of simon says is to follow the sequence the ins same exact order as
 ## Wireframes
 
 <!-- Include images of your wireframes.  -->
+![WireFrame](project-1/rover-project1-boilerplate/wireframes/IMG_1891.JPG)
 
 ## Priority Matrix
 
 <!-- Include a full list of features that have been prioritized based on the `Time and Importance` Matix.   -->
-
+![Priority Matrix](project-1/rover-project1-boilerplate/wireframes/IMG_19002.JPG)
 <!-- ## Game Components -->
 
 ### Landing Page
@@ -53,18 +54,21 @@ IF the user won, In the midde of the screen, it will say, "congratulations you w
 
 <!-- Include the full list of features that will be part of your MVP 
  -->
- I want the game to work first of all.
- Get all the functions to work. 
- I want the highscore to keep udpating each level.
- Get the diffculty to increase and the speed to increase the suer advances.
- Make sure it has all fucntional buttons inclduing the game pieces.
- I want a box to pop up when the game is over with high score and restart button.
-
+ <ul>
+    <li>I want the game to work first of all.</li>
+    <li>Get all the functions to work. </li>
+    <li>I want the highscore to keep udpating each level.</li>
+    <li>Get the diffculty to increase and the speed to increase the suer advances.</li>
+    <li>Make sure it has all fucntional buttons inclduing the game pieces.</li>
+    <li>I want a box to pop up when the game is over with high score and restart button.</li>
+</ul>
 ## POST MVP
 <!-- Include the full list of features that you are considering for POST MV -->
-I want animations when you click on the circles!
-I want sound effects when you click on the circles! 
-I also want music playing in the background!
+<ul>
+    <li>I want animations when you click on the circles!</li>
+    <li>I want sound effects when you click on the circles! </li>
+    <li>I also want music playing in the background!</li>
+</ul>
 ## Functional Components
 
 Based on the initial logic defined in the previous game phases section try and breakdown the logic further into functional components, and by that we mean functions.  Does your logic indicate that code could be encapsulated for the purpose of reusablility.  Once a function has been defined it can then be incorporated into a class as a method. 
@@ -73,12 +77,12 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Game functionality | H | 10hrs| 12hrs | 12hrs |
-| winning logic | H | 5 hrs| 7hrs| 7hrs |
-|landing page| l | 2 hrs | 3hrs| 3hrs|
-|css| l | 7 hrs | 7hrs | 7hrs|
-restart function | l | 2 hours | 3 hours | 3 hours |
-| Total | 26hrs| 32hrs | 32hrs |
+| Game functionality | H | 12hrs| 0hrs |  |
+| winning logic | H | 7 hrs| 0 hrs|  |
+|landing page| l | 3 hrs | 0hrs| |
+|css| l | 7 hrs | 0hrs | |
+restart function | l | 3hrs |  |  |
+| Total | | 32hrs | 0hrs |
 
 ## Helper Functions
 Helper functions should be generic enought that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
