@@ -1,0 +1,103 @@
+body{
+  background-image: url(https://raw.githubusercontent.com/ahsanazim/slack-landing-page/master/screen_caps/main_background.jpg);
+  background-size: cover;
+  background-repeat:   no-repeat;
+
+
+}
+h1{
+  color:white;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+}
+
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 43%;
+
+
+}
+
+.button{
+  position: absolute;
+  top: 50%;
+  left:55%;
+}
+
+
+.one{
+-moz-border-radius: 50px/50px;
+  -webkit-border-radius: 50px 50px;
+  border-radius: 50px/50px;
+  border: solid 21px red;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:28%;
+  left:45%;
+  animation: color-change 2s linear infinite alternate;
+}
+
+.two{
+  -moz-border-radius: 50px/50px;
+  -webkit-border-radius: 50px 50px;
+  border-radius: 50px/50px;
+  border: solid 21px blue;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:46%;
+  left:31%;
+  animation: color-change 4s linear infinite alternate;
+}
+
+.three{
+  -moz-border-radius: 50px/50px;
+  -webkit-border-radius: 50px 50px;
+  border-radius: 50px/50px;
+  border: solid 21px yellow;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:64%;
+  left:45%;
+  animation: color-change 6s linear infinite alternate;
+}
+
+.four{
+  -moz-border-radius: 50px/50px;
+  -webkit-border-radius: 50px 50px;
+  border-radius: 50px/50px;
+  border: solid 21px green;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:46%;
+  left:63%;
+  animation: color-change 8s linear infinite alternate;
+}
+
+@keyframes color-change {
+  0% {
+   border-color: blue;
+  }
+  25% {
+   border-color: red;
+  }
+  50% {
+   border-color: green;
+  }
+
+75%{
+ border-color: yellow;
+  }
+100%{
+ border-color: purple;
+  }
+}
