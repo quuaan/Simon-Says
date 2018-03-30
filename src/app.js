@@ -1,2 +1,4 @@
-/*eslint-env jquery*/
+//Grab each class
+let red = document.getElementByclass(.one)
+
 

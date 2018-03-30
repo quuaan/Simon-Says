@@ -16,10 +16,19 @@ h1{
 }
 
 
-.container{
+.hide{
   position: absolute;
   top: 50%;
-  left: 43%;
+  left: 45%;
+  width: 100px;
+}
+
+.gameView .show {
+  position: absolute;
+  top: 90%;
+  left: 45%;
+  width: 100px;
+}
 
 
 }
@@ -31,7 +40,7 @@ h1{
 }
 
 
-.one{
+.landingPage .one{
 -moz-border-radius: 50px/50px;
   -webkit-border-radius: 50px 50px;
   border-radius: 50px/50px;
@@ -41,10 +50,11 @@ h1{
   position: absolute;
   top:28%;
   left:45%;
-  animation: color-change 2s linear infinite alternate;
+  animation: color-change 1.5s linear infinite alternate;
+
 }
 
-.two{
+.landingPage .two{
   -moz-border-radius: 50px/50px;
   -webkit-border-radius: 50px 50px;
   border-radius: 50px/50px;
@@ -54,10 +64,10 @@ h1{
   position: absolute;
   top:46%;
   left:31%;
-  animation: color-change 4s linear infinite alternate;
+  animation: color-change 2s linear infinite alternate;
 }
 
-.three{
+.landingPage .three{
   -moz-border-radius: 50px/50px;
   -webkit-border-radius: 50px 50px;
   border-radius: 50px/50px;
@@ -67,10 +77,10 @@ h1{
   position: absolute;
   top:64%;
   left:45%;
-  animation: color-change 6s linear infinite alternate;
+  animation: color-change 2.5s linear infinite alternate;
 }
 
-.four{
+.landingPage .four{
   -moz-border-radius: 50px/50px;
   -webkit-border-radius: 50px 50px;
   border-radius: 50px/50px;
@@ -79,9 +89,69 @@ h1{
   height: 50px;
   position: absolute;
   top:46%;
-  left:63%;
-  animation: color-change 8s linear infinite alternate;
+  left:59%;
+  animation: color-change 3.4s linear infinite alternate;
 }
+
+
+.gameView .one{
+   Flash: target ;
+-moz-border-radius: 50px/50px;
+  -webkit-border-radius: 50px 50px;
+  border-radius: 50px/50px;
+  border: solid 21px red;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:28%;
+  left:45%;
+
+}
+
+.gameView .two{
+   Flash: target ;
+  -moz-border-radius: 50px/50px;
+  -webkit-border-radius: 50px 50px;
+  border-radius: 50px/50px;
+  border: solid 21px blue;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:46%;
+  left:31%;
+
+}
+
+.gameView .three{
+   Flash: target ;
+  -moz-border-radius: 50px/50px;
+  -webkit-border-radius: 50px 50px;
+  border-radius: 50px/50px;
+  border: solid 21px yellow;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:64%;
+  left:45%;
+
+}
+
+
+.gameView .four{
+   Flash: target ;
+-moz-border-radius: 50px/50px;
+  -webkit-border-radius: 50px 50px;
+  border-radius: 50px/50px;
+  border: solid 21px green;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:46%;
+  left:59%;
+
+}
+
+
 
 @keyframes color-change {
   0% {
@@ -101,3 +171,4 @@ h1{
  border-color: purple;
   }
 }
+
