@@ -5,7 +5,7 @@ body{
 
 
 }
-h1{
+/*h1{
   color:white;
     font-size: 50px;
     font-weight: bold;
@@ -16,33 +16,8 @@ h1{
 }
 
 
-.hide{
-  position: absolute;
-  top: 50%;
-  left: 45%;
-  width: 100px;
-}
 
-.gameView .show {
-  position: absolute;
-  top: 90%;
-  left: 45%;
-  width: 100px;
-}
-
-
-}
-
-.button{
-  position: absolute;
-  top: 50%;
-  left:55%;
-}
-
-
-.landingPage .one{
--moz-border-radius: 50px/50px;
-  -webkit-border-radius: 50px 50px;
+ .one{
   border-radius: 50px/50px;
   border: solid 21px red;
   width: 50px;
@@ -54,9 +29,7 @@ h1{
 
 }
 
-.landingPage .two{
-  -moz-border-radius: 50px/50px;
-  -webkit-border-radius: 50px 50px;
+ .two{
   border-radius: 50px/50px;
   border: solid 21px blue;
   width: 50px;
@@ -67,10 +40,8 @@ h1{
   animation: color-change 2s linear infinite alternate;
 }
 
-.landingPage .three{
-  -moz-border-radius: 50px/50px;
-  -webkit-border-radius: 50px 50px;
-  border-radius: 50px/50px;
+ .three{
+   border-radius: 50px/50px;
   border: solid 21px yellow;
   width: 50px;
   height: 50px;
@@ -80,9 +51,7 @@ h1{
   animation: color-change 2.5s linear infinite alternate;
 }
 
-.landingPage .four{
-  -moz-border-radius: 50px/50px;
-  -webkit-border-radius: 50px 50px;
+ .four{
   border-radius: 50px/50px;
   border: solid 21px green;
   width: 50px;
@@ -91,64 +60,6 @@ h1{
   top:46%;
   left:59%;
   animation: color-change 3.4s linear infinite alternate;
-}
-
-
-.gameView .one{
-   Flash: target ;
--moz-border-radius: 50px/50px;
-  -webkit-border-radius: 50px 50px;
-  border-radius: 50px/50px;
-  border: solid 21px red;
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top:28%;
-  left:45%;
-
-}
-
-.gameView .two{
-   Flash: target ;
-  -moz-border-radius: 50px/50px;
-  -webkit-border-radius: 50px 50px;
-  border-radius: 50px/50px;
-  border: solid 21px blue;
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top:46%;
-  left:31%;
-
-}
-
-.gameView .three{
-   Flash: target ;
-  -moz-border-radius: 50px/50px;
-  -webkit-border-radius: 50px 50px;
-  border-radius: 50px/50px;
-  border: solid 21px yellow;
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top:64%;
-  left:45%;
-
-}
-
-
-.gameView .four{
-   Flash: target ;
--moz-border-radius: 50px/50px;
-  -webkit-border-radius: 50px 50px;
-  border-radius: 50px/50px;
-  border: solid 21px green;
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top:46%;
-  left:59%;
-
 }
 
 
@@ -172,3 +83,90 @@ h1{
   }
 }
 
+*/
+
+         #middleCircle {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    position:absolute;
+    left:150px;
+    border-radius: 50%;
+    top:50%;
+    left:50%;
+    z-index: 100;
+    box-shadow: 0px 0px 55px #000;
+    cursor: pointer;
+  }
+
+        h1 {
+    color:white;
+    font-size: 82px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    font-family:'Yellowtail';
+  }
+
+       p {
+    color:white;
+    font-size: 5px;
+    font-family:'Oswald';
+    position: absolute;
+    top:-10px;
+  }
+
+     h2 {
+    margin-top:5px;
+    color:white;
+    position: absolute;
+    font-family:'Oswald';
+    font-size: 40px;
+  }
+
+
+    .square {
+    width: 300px;
+    height: 300px;
+    float: left;
+  }
+
+   .one {
+  border: solid 21px red;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:15%;
+  left:45%;
+  }
+
+    .two {
+  border-radius: 50px/50px;
+  border: solid 21px blue;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:46%;
+  left:26%;
+  }
+
+    .three {
+    border-radius: 50px/50px;
+  border: solid 21px green;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:46%;
+  left:65%;
+
+  }
+
+    .four {
+   border: solid 21px yellow;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:74%;
+  left:45%;
+  }
