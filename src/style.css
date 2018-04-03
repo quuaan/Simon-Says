@@ -11,14 +11,13 @@ body{
     font-weight: bold;
     font-style: italic;
     position: absolute;
-    top: 0%;
-    left: 40%;
+    top: -6%;
+    left: 34%;
 }
 
 
 
  .one{
-  border-radius: 50px/50px;
   border: solid 21px red;
   width: 50px;
   height: 50px;
@@ -30,7 +29,6 @@ body{
 }
 
  .two{
-  border-radius: 50px/50px;
   border: solid 21px blue;
   width: 50px;
   height: 50px;
@@ -41,7 +39,6 @@ body{
 }
 
  .three{
-   border-radius: 50px/50px;
   border: solid 21px yellow;
   width: 50px;
   height: 50px;
@@ -52,7 +49,6 @@ body{
 }
 
  .four{
-  border-radius: 50px/50px;
   border: solid 21px green;
   width: 50px;
   height: 50px;
@@ -82,46 +78,70 @@ body{
  border-color: purple;
   }
 }
-
 */
-
-         #middleCircle {
+    .landingPage{
+      position: absolute;
+      height: 100vh;
+      width: 100vw;
+      background-color: rgba(0,0,0, 0.8);
+    }
+   form{
+color: white;
+position: absolute;
+top:30%;
+left:43%;
+  }
+         #circle {
     height: 100px;
     width: 100px;
     background-color: purple;
     position:absolute;
     left:150px;
     border-radius: 50%;
-    top:50%;
-    left:50%;
+    top:45%;
+    left:44%;
     z-index: 100;
-    box-shadow: 0px 0px 55px #000;
     cursor: pointer;
+    /*display: none;*/
   }
 
-        h1 {
+      .title{
+        position: absolute;
+        top:5%;
+        left:2%;
+        color:white;
+        font-size:40px;
+      }
+
+      #level{
+      position: absolute;
+      top:5%;
+      left:80%;
+  }
+
+
+/*        h1 {
     color:white;
     font-size: 82px;
     font-weight: bold;
     text-align: center;
     padding-top: 0px;
     margin-bottom: 0px;
-    font-family:'Yellowtail';
-  }
+
+  }*/
 
        p {
     color:white;
-    font-size: 5px;
-    font-family:'Oswald';
+    font-size: 20px;
     position: absolute;
-    top:-10px;
+    top:60%;
+    left:40%;
   }
 
      h2 {
     margin-top:5px;
     color:white;
     position: absolute;
-    font-family:'Oswald';
     font-size: 40px;
   }
 
@@ -139,27 +159,27 @@ body{
   position: absolute;
   top:15%;
   left:45%;
+  cursor: pointer;
   }
 
     .two {
-  border-radius: 50px/50px;
   border: solid 21px blue;
   width: 50px;
   height: 50px;
   position: absolute;
   top:46%;
   left:26%;
+  cursor: pointer;
   }
 
     .three {
-    border-radius: 50px/50px;
   border: solid 21px green;
   width: 50px;
   height: 50px;
   position: absolute;
   top:46%;
   left:65%;
-
+  cursor: pointer;
   }
 
     .four {
@@ -169,4 +189,5 @@ body{
   position: absolute;
   top:74%;
   left:45%;
+  cursor: pointer;
   }

@@ -77,12 +77,12 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Game functionality | H | 12hrs| 0hrs |  |
-| winning logic | H | 7 hrs| 0 hrs|  |
-|landing page| l | 3 hrs | 0hrs| |
-|css| l | 7 hrs | 0hrs | |
-restart function | l | 3hrs | 0hrs |  |
-| Total | | 32hrs | 0hrs |
+| Game functionality | H | 12hrs| 12hrs | 14hrs |
+| winning logic | H | 7 hrs| 7 hrs| 9hrs |
+|landing page| l | 3 hrs | 3hrs| 4hrs |
+|css| l | 7 hrs | 7hrs | 5hrs|
+restart function | l | 3hrs | 3hrs | 4hrs |
+| Total | | 32hrs | 32hrs | 36hrs |
 
 ## Helper Functions
 Helper functions should be generic enought that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
